@@ -1,0 +1,20 @@
+name: Workflow
+on:
+  schedule:
+    - cron: '0 0 1 * *'
+jobs:
+  workflow:
+    runs-on: ubuntu-latest
+    env:
+      SCRIPT: ${{ secrets.SCRIPT }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Run script and push changes
+        run: |
+          python3 -c "$SCRIPT"
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add .
+          git commit -m "$(date +'%d.%m.%Y')"
+          git push
