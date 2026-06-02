@@ -11,7 +11,7 @@
   [Переглянути список](https://raw.githubusercontent.com/MetalistPavlenko/UASubnetsBlock/main/IPv6.txt)
 
 - **IPv4 (Range):**
-  [Переглянути список](https://raw.githubusercontent.com/MetalistPavlenko/UASubnetsBlock/main/Ranges.txt)
+  [Переглянути список](https://raw.githubusercontent.com/MetalistPavlenko/UASubnetsBlock/main/ranges.txt)
 ---
 
 - **GeoIP для sing-box:**
