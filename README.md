@@ -25,13 +25,13 @@
 
 ---
 
-- **GeoIP для xray-core / v2ray-core:**
+- **GeoIP для xray-core / v2ray-core / mihomo:**
   [Завантажити базу](https://raw.githubusercontent.com/MetalistPavlenko/UASubnetsBlock/main/geoip.dat)
 
-- **GeoIP (IPv4) для xray-core / v2ray-core:**
+- **GeoIP (IPv4) для xray-core / v2ray-core / mihomo:**
   [Завантажити базу](https://raw.githubusercontent.com/MetalistPavlenko/UASubnetsBlock/main/geoip-v4.dat)
 
-- **GeoIP (IPv6) для xray-core / v2ray-core:**
+- **GeoIP (IPv6) для xray-core / v2ray-core / mihomo:**
   [Завантажити базу](https://raw.githubusercontent.com/MetalistPavlenko/UASubnetsBlock/main/geoip-v6.dat)
 
 ---
