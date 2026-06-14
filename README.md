@@ -52,7 +52,7 @@
 ---
 
 <details>
-<summary style="font-size: 1.1em; font-weight: bold;">Застосування в RouterOS:</summary>
+<summary style="font-size: 1.1em;"><strong>Застосування в RouterOS:</strong></summary>
 
 #### **Імпортування:**
 
