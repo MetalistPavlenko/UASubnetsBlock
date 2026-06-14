@@ -19,13 +19,13 @@
 ---
 
 - **Routes (IPv4) для RouterOS:**
-  [Завантажити базу](https://raw.githubusercontent.com/MetalistPavlenko/UASubnetsBlock/main/routes4.rsc)
+  [Переглянути список](https://raw.githubusercontent.com/MetalistPavlenko/UASubnetsBlock/main/routes4.rsc)
 
 - **Routes (IPv6) для RouterOS:**
-  [Завантажити базу](https://raw.githubusercontent.com/MetalistPavlenko/UASubnetsBlock/main/routes6.rsc)
+  [Переглянути список](https://raw.githubusercontent.com/MetalistPavlenko/UASubnetsBlock/main/routes6.rsc)
 
 - **Routes (IPv4 + IPv6) для RouterOS:**
-  [Завантажити базу](https://raw.githubusercontent.com/MetalistPavlenko/UASubnetsBlock/main/routes.rsc)
+  [Переглянути список](https://raw.githubusercontent.com/MetalistPavlenko/UASubnetsBlock/main/routes.rsc)
 
 ---
 
