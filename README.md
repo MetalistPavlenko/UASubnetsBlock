@@ -5,49 +5,49 @@
 ---
 
 - **IPv4:**
-  [Переглянути список](https://raw.githubusercontent.com/MetalistPavlenko/UASubnetsBlock/main/IPv4.txt)
+  [Переглянути список](https://raw.githubusercontent.com/MetalistPavlenko/UASubnetsBlock/main/txt/ipv4/list.txt)
 
 - **IPv6:**
-  [Переглянути список](https://raw.githubusercontent.com/MetalistPavlenko/UASubnetsBlock/main/IPv6.txt)
+  [Переглянути список](https://raw.githubusercontent.com/MetalistPavlenko/UASubnetsBlock/main/txt/ipv6/list.txt)
 
-- **Range (IPv4):**
-  [Переглянути список](https://raw.githubusercontent.com/MetalistPavlenko/UASubnetsBlock/main/ranges.txt)
+- **Ranges (IPv4):**
+  [Переглянути список](https://raw.githubusercontent.com/MetalistPavlenko/UASubnetsBlock/main/txt/ranges/list.txt)
 
 - **Subnets (IPv4 + IPv6):**
-  [Переглянути список](https://raw.githubusercontent.com/MetalistPavlenko/UASubnetsBlock/main/subnets.txt)
+  [Переглянути список](https://raw.githubusercontent.com/MetalistPavlenko/UASubnetsBlock/main/txt/all/list.txt)
 
 ---
 
 - **Routes (IPv4) для RouterOS:**
-  [Переглянути список](https://raw.githubusercontent.com/MetalistPavlenko/UASubnetsBlock/main/routes4.rsc)
+  [Переглянути список](https://raw.githubusercontent.com/MetalistPavlenko/UASubnetsBlock/main/rsc/ipv4/routes.rsc)
 
 - **Routes (IPv6) для RouterOS:**
-  [Переглянути список](https://raw.githubusercontent.com/MetalistPavlenko/UASubnetsBlock/main/routes6.rsc)
+  [Переглянути список](https://raw.githubusercontent.com/MetalistPavlenko/UASubnetsBlock/main/rsc/ipv6/routes.rsc)
 
 - **Routes (IPv4 + IPv6) для RouterOS:**
-  [Переглянути список](https://raw.githubusercontent.com/MetalistPavlenko/UASubnetsBlock/main/routes.rsc)
+  [Переглянути список](https://raw.githubusercontent.com/MetalistPavlenko/UASubnetsBlock/main/rsc/all/routes.rsc)
 
 ---
 
 - **GeoIP для sing-box:**
-  [Завантажити базу](https://raw.githubusercontent.com/MetalistPavlenko/UASubnetsBlock/main/geoip.srs)
+  [Завантажити базу](https://raw.githubusercontent.com/MetalistPavlenko/UASubnetsBlock/main/srs/all/geoip.srs)
 
 - **GeoIP (IPv4) для sing-box:**
-  [Завантажити базу](https://raw.githubusercontent.com/MetalistPavlenko/UASubnetsBlock/main/geoip-v4.srs)
+  [Завантажити базу](https://raw.githubusercontent.com/MetalistPavlenko/UASubnetsBlock/main/srs/ipv4/geoip.srs)
 
 - **GeoIP (IPv6) для sing-box:**
-  [Завантажити базу](https://raw.githubusercontent.com/MetalistPavlenko/UASubnetsBlock/main/geoip-v6.srs)
+  [Завантажити базу](https://raw.githubusercontent.com/MetalistPavlenko/UASubnetsBlock/main/srs/ipv6/geoip.srs)
 
 ---
 
 - **GeoIP для xray-core / v2ray-core / mihomo:**
-  [Завантажити базу](https://raw.githubusercontent.com/MetalistPavlenko/UASubnetsBlock/main/geoip.dat)
+  [Завантажити базу](https://raw.githubusercontent.com/MetalistPavlenko/UASubnetsBlock/main/dat/all/geoip.dat)
 
 - **GeoIP (IPv4) для xray-core / v2ray-core / mihomo:**
-  [Завантажити базу](https://raw.githubusercontent.com/MetalistPavlenko/UASubnetsBlock/main/geoip-v4.dat)
+  [Завантажити базу](https://raw.githubusercontent.com/MetalistPavlenko/UASubnetsBlock/main/dat/ipv4/geoip.dat)
 
 - **GeoIP (IPv6) для xray-core / v2ray-core / mihomo:**
-  [Завантажити базу](https://raw.githubusercontent.com/MetalistPavlenko/UASubnetsBlock/main/geoip-v6.dat)
+  [Завантажити базу](https://raw.githubusercontent.com/MetalistPavlenko/UASubnetsBlock/main/dat/ipv6/geoip.dat)
 
 ---
 
@@ -62,7 +62,7 @@
 
 > **3. Створюємо нову таблицю маршрутизації:**
 >> ```shell
->> /routing/table/add fib name=UASubnetsBlock
+>> /routing table add fib name=UASubnetsBlock
 >> ```
 
 > **4. Імпортуємо маршрути:**
@@ -84,14 +84,14 @@
 
 > **2. Видаляємо маршрути:**
 >> ```shell
->> /ip/route/remove [find routing-table=UASubnetsBlock]
+>> /ip route remove [find routing-table=UASubnetsBlock]
 >> ```
 >> ```shell
->> /ipv6/route/remove [find routing-table=UASubnetsBlock]
+>> /ipv6 route remove [find routing-table=UASubnetsBlock]
 >> ```
 
 > **3. Видаляємо таблицю маршрутизації:**
 >> ```shell
->> /routing/table/remove [find name=UASubnetsBlock]
+>> /routing table remove [find name=UASubnetsBlock]
 >> ```
 </details>
